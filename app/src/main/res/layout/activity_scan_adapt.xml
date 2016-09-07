@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        String item_name, int mquantity, double mprice)
+
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Product Name"
+            android:textSize="20sp"
+            android:text="Product Name" />
+
+        <TextView
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            tools:text="Quantity"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            tools:text="Price"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/TotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            tools:text="Total Price"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
